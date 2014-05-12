@@ -1,0 +1,29 @@
+#!/bin/bash
+
+packages=(
+
+  #admin
+  kuser synaptic
+
+  #tools
+  yakuake emacs emacs-goodies-el emacs-goodies-extra-el
+
+  #revision controll
+  kdesvn git tortoisehg-nautilus 
+
+  #desktop
+  
+  chromium
+  
+  #kde
+  plasma-widget-smooth-tasks plasma-widget-fastuserswitch
+
+  #system
+  hibernate
+
+  #firewall
+  ufw squid3 squidguard
+
+)
+
+aptitude install -y ${packages[@]}
