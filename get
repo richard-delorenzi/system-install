@@ -6,23 +6,23 @@ packages=(
   kuser synaptic
 
   #tools
-  yakuake emacs emacs-goodies-el emacs-goodies-extra-el
+  yakuake emacs emacs-goodies-el emacs-goodies-extra-el markdown
 
-  #revision controll
-  kdesvn git tortoisehg-nautilus 
+  #revision control
+  kdesvn git tortoisehg-nautilus subversion
 
   #desktop
-  
-  chromium
-  
-  #kde
-  plasma-widget-smooth-tasks plasma-widget-fastuserswitch
+  chromium flashplugin-nonfree plasma-widget-smooth-tasks plasma-widget-fastuserswitch redshift
 
   #system
-  hibernate
+  hibernate #deb-multimedia-keyring
+
+  #security
+  keepassx
 
   #firewall
   ufw squid3 squidguard
+  
 
 )
 
