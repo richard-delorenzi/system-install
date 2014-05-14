@@ -11,12 +11,11 @@ function prerun_find_problems {
     grep -qv -E "^[0-9]+\s((UNKNOWN)|(\w*)\s${dir}/\3)" && exit 1 || exit 0
 }
 
-function p2 {
+function adduser {
     dir=$1
     shift
     echo $@ | 
     grep -E "^[0-9]+\s(UNKNOWN)" |
-    #xargs --no-run-if-empty echo zz
     sed -re "s~([0-9]+)\sUNKNOWN\s$dir/(.*)$~\1 \2~g" |
     xargs --no-run-if-empty -n2 sudo adduser --disabled-password --no-create-home --uid
 }
@@ -37,7 +36,7 @@ else
     process=prerun_find_problems
     run $1
 
-    process=p2
+    process=adduser
     run $1
 fi
 
