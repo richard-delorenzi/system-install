@@ -2,7 +2,6 @@
 
 set -e
 self=$0
-#echo running: $0 $@
 
 function prerun_find_problems {
     dir=$1
