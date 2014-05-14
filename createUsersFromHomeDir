@@ -15,8 +15,10 @@ function p2 {
     dir=$1
     shift
     echo $@ | 
-    grep -E "^[0-9]+\s(UNKNOWN)" #|
-    #sed -re "s~([0-9]+)\sUNKNOWN\s$dir/(.*)$~\2 \1~g"
+    grep -E "^[0-9]+\s(UNKNOWN)" |
+    #xargs --no-run-if-empty echo zz
+    sed -re "s~([0-9]+)\sUNKNOWN\s$dir/(.*)$~\1 \2~g" |
+    xargs --no-run-if-empty -n2 sudo adduser --no-create-home --uid
 }
 
 function run {
@@ -34,8 +36,6 @@ then
 else
     process=prerun_find_problems
     run $1
-
-    echo here
 
     process=p2
     run $1
