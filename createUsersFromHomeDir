@@ -18,7 +18,7 @@ function p2 {
     grep -E "^[0-9]+\s(UNKNOWN)" |
     #xargs --no-run-if-empty echo zz
     sed -re "s~([0-9]+)\sUNKNOWN\s$dir/(.*)$~\1 \2~g" |
-    xargs --no-run-if-empty -n2 sudo adduser --no-create-home --uid
+    xargs --no-run-if-empty -n2 sudo adduser --disabled-password --no-create-home --uid
 }
 
 function run {
