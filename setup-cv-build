@@ -1,0 +1,12 @@
+#!/bin/bash
+
+packages=(
+    #needed for .pdf
+    filepp
+    texlive-latex-base 
+    texlive-latex-extra
+    #additional needed for .doc
+    tth
+)
+
+aptitude install -y ${packages[@]}
