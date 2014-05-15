@@ -1,0 +1,4 @@
+#/bin/bash
+
+ln -fsT /media/extra/mystuff/svn-repos /var/svn
+chown -R svn /var/svn/
