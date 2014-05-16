@@ -2,28 +2,72 @@
 
 packages=(
 
-  #admin
+  ##admin
   kuser synaptic
 
-  #tools
-  yakuake emacs emacs-goodies-el emacs-goodies-extra-el markdown
+  ##tools
+  yakuake emacs emacs-goodies-el emacs-goodies-extra-el vim 
 
-  #revision control
+  ##document generation
+  markdown
+
+  ##dev tools
+  ipython kdiff3
+
+  ##dev tools — eclipse
+  #eclipse-jdt eclipse-mercurialeclipse eclipse-cdt eclipse-egit
+
+  ##revision control
   kdesvn git tortoisehg-nautilus subversion
 
-  #desktop
-  chromium flashplugin-nonfree plasma-widget-smooth-tasks plasma-widget-fastuserswitch redshift
+  ##desktop
+  chromium flashplugin-nonfree plasma-widget-smooth-tasks plasma-widget-fastuserswitch redshift #update-notifier-kde
+  #mail-notification
 
-  #system
-  hibernate #deb-multimedia-keyring
+  ##system
+  hibernate baobab wireshark zenmap
 
-  #security
+  ##security
   keepassx
 
-  #firewall
+  ##firewall
   ufw squid3 squidguard
-  
 
+  ##multi-media codecs etc
+  libavcodec-extra-53 libdvdread4 deb-multimedia-keyring
+
+  ##kids
+  scratch
+
+  #games
+  xye
+  xsok
+  xpenguins
+  xmoto
+  xbubble
+  xbomb
+  xboing
+  vodovod
+  toppler
+  raincat
+  qonk
+  pipewalker
+  pipenightdreams
+  mirrormagic
+  minetest
+  magicor
+  laby
+  holotz-castle
+  hex-a-hop
+  groundhog
+  gsoko
+  gpe-lights
+  frozen-bubble
+  attal
+  kiki-the-nano-bot
+  berusky
+  xsok
+  rocksndiamonds
 )
 
-aptitude install -y ${packages[@]}
+aptitude install  ${packages[@]}
