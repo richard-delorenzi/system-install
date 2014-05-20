@@ -6,7 +6,7 @@ packages=(
   kuser synaptic
 
   ##tools
-  yakuake emacs emacs-goodies-el emacs-goodies-extra-el vim 
+  yakuake emacs emacs-goodies-el emacs-goodies-extra-el vim parallel baobab wireshark zenmap
 
   ##document generation
   markdown
@@ -25,7 +25,7 @@ packages=(
   #mail-notification
 
   ##system
-  hibernate baobab wireshark zenmap
+  hibernate gdm3
 
   ##security
   keepassx
@@ -38,36 +38,6 @@ packages=(
 
   ##kids
   scratch
-
-  #games
-  xye
-  xsok
-  xpenguins
-  xmoto
-  xbubble
-  xbomb
-  xboing
-  vodovod
-  toppler
-  raincat
-  qonk
-  pipewalker
-  pipenightdreams
-  mirrormagic
-  minetest
-  magicor
-  laby
-  holotz-castle
-  hex-a-hop
-  groundhog
-  gsoko
-  gpe-lights
-  frozen-bubble
-  attal
-  kiki-the-nano-bot
-  berusky
-  xsok
-  rocksndiamonds
 )
 
 aptitude install  ${packages[@]}

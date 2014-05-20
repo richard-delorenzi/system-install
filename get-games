@@ -1,0 +1,35 @@
+#!/bin/bash
+
+packages=(
+  #games	
+  xye
+  xsok
+  xpenguins
+  xmoto
+  xbubble
+  xbomb
+  xboing
+  vodovod
+  toppler
+  raincat
+  qonk
+  pipewalker
+  pipenightdreams
+  mirrormagic
+  minetest
+  magicor
+  laby
+  holotz-castle
+  hex-a-hop
+  groundhog
+  gsoko
+  gpe-lights
+  frozen-bubble
+  attal
+  kiki-the-nano-bot
+  berusky
+  xsok
+  rocksndiamonds
+)
+
+aptitude install  ${packages[@]}
