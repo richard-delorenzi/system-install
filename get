@@ -18,7 +18,9 @@ packages=(
   #eclipse-jdt eclipse-mercurialeclipse eclipse-cdt eclipse-egit
 
   ##revision control
-  kdesvn git tortoisehg-nautilus subversion
+  kdesvn tortoisehg-nautilus subversion
+  git git-cola git-flow git-gui gitk
+  rabbitvcs-nautilus
 
   ##desktop
   chromium flashplugin-nonfree plasma-widget-smooth-tasks plasma-widget-fastuserswitch redshift #update-notifier-kde
