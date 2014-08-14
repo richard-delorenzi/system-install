@@ -1,0 +1,10 @@
+#!/bin/bash
+
+file=/usr/bin/dumpcap
+grp=wireshark
+
+addgroup --system $grp
+chgrp $grp $file
+chmod 754 $file 
+
+setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' $file
