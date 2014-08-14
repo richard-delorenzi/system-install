@@ -3,28 +3,55 @@
 packages=(
 
   ##admin
-  kuser synaptic
+  kuser synaptic 
+  evtest #input devices
 
   ##tools
-  yakuake emacs emacs-goodies-el emacs-goodies-extra-el vim parallel baobab wireshark zenmap
+  yakuake emacs emacs-goodies-el emacs-goodies-extra-el vim parallel baobab wireshark zenmap strace
+
+  #-cpulimit trickle
+
+  ##media
+  get-iplayer
 
   ##document generation
   markdown
+  xmlstarlet
 
-  ##dev tools
-  ipython kdiff3
+  ##mono
+  monodevelop
+  monodevelop-nunit
+
+  ##python
+  ipython
+
+  ##ocaml
+  ocaml-interp
+  cameleon
+
+  ##dev tools 
+  kdiff3
+
+  ##web
+  sass-elisp ruby-sass
 
   ##dev tools — eclipse
-  #eclipse-jdt eclipse-mercurialeclipse eclipse-cdt eclipse-egit
+  eclipse-jdt eclipse-mercurialeclipse eclipse-cdt eclipse-egit
 
   ##revision control
-  kdesvn tortoisehg-nautilus subversion
+  kdesvn subversion
+  tortoisehg-nautilus mercurial-git hgview
   git git-cola git-flow git-gui gitk
   rabbitvcs-nautilus
 
   ##desktop
   chromium flashplugin-nonfree plasma-widget-smooth-tasks plasma-widget-fastuserswitch redshift #update-notifier-kde
   #mail-notification
+
+  ##presentation
+  #ardesia 
+  istanbul 
+  #recordmydesktop
 
   ##system
   hibernate gdm3
@@ -33,13 +60,31 @@ packages=(
   keepassx
 
   ##firewall
-  ufw squid3 squidguard
+  ufw squid3 squidguard dnsmasq
 
   ##multi-media codecs etc
   libavcodec-extra-53 libdvdread4 deb-multimedia-keyring
 
   ##kids
+
+  ###games
+  #in get-games
+
+  ###scratch
   scratch
+  etoys
+  turtleart
+  
+
+  ###art
+  ##animation 2d
+  #gimp-gap
+  "synfigstudio&M" "synfig-examples&M" # have installed manualy to /opt
+  #tupi
+  
+  
+  ##presentation
+  #sozi
 )
 
 aptitude install  ${packages[@]}
