@@ -30,6 +30,8 @@ packages=(
   berusky
   xsok
   rocksndiamonds
+
+  freecraft freegish garden-of-coloured-lights glob2 pingus pioneers stax qonk thrust widelands
 )
 
 aptitude install  ${packages[@]}
