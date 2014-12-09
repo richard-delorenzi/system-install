@@ -43,7 +43,7 @@ packages=(
   ##revision control
   kdesvn subversion
   tortoisehg-nautilus mercurial-git hgview
-  git git-cola git-flow git-gui gitk
+  easygit git git-cola git-flow git-gui gitk
   rabbitvcs-nautilus
 
   ##desktop
