@@ -12,7 +12,7 @@ packages=(
   #-cpulimit trickle
 
   ##media
-  get-iplayer
+  get-iplayer lame
 
   ##document generation
   markdown
@@ -21,6 +21,8 @@ packages=(
   ##mono
   monodevelop
   monodevelop-nunit
+  libnewtonsoft-json-cil-dev #used by qcouch
+
 
   ##python
   ipython
