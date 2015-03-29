@@ -5,6 +5,8 @@ packages=(
   ##admin
   kuser synaptic 
   evtest #input devices
+  ##time
+  ntp 
 
   ##tools
   yakuake emacs emacs-goodies-el emacs-goodies-extra-el vim parallel baobab wireshark zenmap strace
@@ -28,14 +30,14 @@ packages=(
   ipython
 
   ##ocaml
-  ocaml-interp
-  cameleon
+  "ocaml-interp&M"
+  "cameleon&M"
 
   ##dev tools 
   kdiff3
 
-  ##web
-  sass-elisp ruby-sass
+  ##web development
+  "sass-elisp&M" "ruby-sass&M"
 
   ##dev tools — eclipse
   eclipse-jdt eclipse-mercurialeclipse eclipse-cdt eclipse-egit
@@ -52,7 +54,7 @@ packages=(
 
   ##presentation
   #ardesia 
-  istanbul 
+  "istanbul&M" 
   #recordmydesktop
 
   ##system
@@ -89,4 +91,4 @@ packages=(
   #sozi
 )
 
-aptitude install  ${packages[@]}
+aptitude install  "${packages[@]}"
