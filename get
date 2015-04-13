@@ -23,7 +23,10 @@ packages=(
   ##mono
   monodevelop
   monodevelop-nunit
-  libnewtonsoft-json-cil-dev #used by qcouch
+
+  #qcouch
+  libnewtonsoft-json-cil-dev
+  couchdb
 
 
   ##python
@@ -47,15 +50,16 @@ packages=(
   tortoisehg-nautilus mercurial-git hgview
   easygit git git-cola git-flow git-gui gitk
   rabbitvcs-nautilus
+  kdesdk-dolphin-plugins
 
   ##desktop
-  chromium flashplugin-nonfree plasma-widget-smooth-tasks plasma-widget-fastuserswitch redshift #update-notifier-kde
-  #mail-notification
+  chromium "flashplugin-nonfree&M" plasma-widget-smooth-tasks plasma-widget-fastuserswitch redshift #update-notifier-kde
+  "mail-notification&M"
 
   ##presentation
-  #ardesia 
+  "ardesia&M" 
   "istanbul&M" 
-  #recordmydesktop
+  "recordmydesktop&M"
 
   ##system
   hibernate gdm3
@@ -82,13 +86,13 @@ packages=(
 
   ###art
   ##animation 2d
-  #gimp-gap
   "synfigstudio&M" "synfig-examples&M" # have installed manualy to /opt
-  #tupi
+  "tupi&M"
+  "gimp-gap&M"
   
   
   ##presentation
-  #sozi
+  "sozi&M"
 )
 
 aptitude install  "${packages[@]}"
