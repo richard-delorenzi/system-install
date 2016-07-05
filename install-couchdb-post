@@ -1,12 +1,16 @@
 #!/bin/bash
 
-#post-install
+#set permissions
 chown -R couchdb:couchdb /usr/local/etc/couchdb
 chown -R couchdb:couchdb /usr/local/var/lib/couchdb
 chown -R couchdb:couchdb /usr/local/var/log/couchdb
 chown -R couchdb:couchdb /usr/local/var/run/couchdb
-
 chmod 0770 /usr/local/etc/couchdb
 chmod 0770 /usr/local/var/lib/couchdb
 chmod 0770 /usr/local/var/log/couchdb
 chmod 0770 /usr/local/var/run/couchdb
+
+#add service
+ln -s -t /etc/init.d /usr/local/etc/init.d/couchdb
+update-rc.d couchdb defaults
+echo done
