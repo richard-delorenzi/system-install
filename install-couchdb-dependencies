@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#pre-install
 packages=(
   build-essential
   erlang-base-hipe
@@ -13,3 +14,14 @@ packages=(
 )
 
 aptitude install  "${packages[@]}"
+
+adduser --system \
+        --home /usr/local/var/lib/couchdb \
+        --no-create-home \
+        --shell /bin/bash \
+        --group --gecos \
+        "CouchDB Administrator" couchdb
+
+##now build and install
+#
+
