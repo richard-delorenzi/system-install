@@ -13,4 +13,9 @@ chmod 0770 /usr/local/var/run/couchdb
 #add service
 ln -s -t /etc/init.d /usr/local/etc/init.d/couchdb
 update-rc.d couchdb defaults
+
+#add log rotate
+ln -s -t /etc/logrotate.d /usr/local/etc/logrotate.d/couchdb
+
+#end
 echo done
