@@ -6,6 +6,6 @@ search='^GRUB_DEFAULT=[0-9]+$'
 replace='GRUB_DEFAULT=saved\nGRUB_SAVEDEFAULT=true'
 
 sed -ri -e "s/$search/$replace/g" "$confFile" ||
-    echo "error: could not edit $confFile, maybe you do not have permission, maybe I do not recognise the format."; exit
+    echo "error: could not edit $confFile"; exit
 
 update-grub
