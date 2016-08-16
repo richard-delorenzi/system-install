@@ -2,6 +2,11 @@
 
 base="$(dirname "$0")"
 
-echo "$base"/install-couchdb-dependencies
-echo "$base"/install-couchdb-make
-echo "$base"/install-couchdb-post
+echo installing dependencies
+sudo "$base"/install-couchdb-dependencies
+
+echo building
+"$base"/install-couchdb-make
+
+echo doing post install config
+sudo "$base"/install-couchdb-post
