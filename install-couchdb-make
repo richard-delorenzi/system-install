@@ -1,0 +1,7 @@
+#!/bin/bash -e
+
+cd /home/richard/+Files/workshops/3rd-party/apache-couchdb-1.6.1
+./configure
+make
+sudo -u admin -g admin make install
+

@@ -1,0 +1,7 @@
+#!/bin/bash -e
+
+base="$(dirname "$0")"
+
+echo "$base"/install-couchdb-dependencies
+echo "$base"/install-couchdb-make
+echo "$base"/install-couchdb-post
