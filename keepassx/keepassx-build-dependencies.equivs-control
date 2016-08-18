@@ -1,21 +1,20 @@
 ### Commented entries have reasonable defaults.
 ### Uncomment to edit them.
 # Source: <source package name; defaults to package name>
-Section: misc
+Section: local
 Priority: optional
-Homepage: https://github.com/keepassx/keepassx
+#Homepage: https://github.com/keepassx/keepassx
 Standards-Version: 3.9.2
-
 Package: my-keepassx-build-dependencies
 Version: 1.0
-Maintainer: richard delorenzi
+Maintainer: richard.delorenzi
 # Pre-Depends: <comma-separated list of packages>
 Depends: build-essential, cmake, qtbase5-dev, libqt5x11extras5-dev, qttools5-dev, qttools5-dev-tools, libgcrypt20-dev, zlib1g-dev, libxi-dev, libxtst-dev
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
 # Replaces: <comma-separated list of packages>
-Architecture: all
+# Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 # Changelog: <changelog file; defaults to a generic changelog>
 # Readme: <README.Debian file; defaults to a generic one>
