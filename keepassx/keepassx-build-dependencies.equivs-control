@@ -6,11 +6,11 @@ Priority: optional
 Homepage: https://github.com/keepassx/keepassx
 Standards-Version: 3.9.2
 
-Package: my_keepassx_build_dependencies
+Package: my-keepassx-build-dependencies
 Version: 1.0
 Maintainer: richard delorenzi
 # Pre-Depends: <comma-separated list of packages>
-Depends: build-essential cmake qtbase5-dev libqt5x11extras5-dev qttools5-dev qttools5-dev-tools libgcrypt20-dev zlib1g-dev libxi-dev libxtst-dev
+Depends: build-essential, cmake, qtbase5-dev, libqt5x11extras5-dev, qttools5-dev, qttools5-dev-tools, libgcrypt20-dev, zlib1g-dev, libxi-dev, libxtst-dev
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
@@ -22,5 +22,5 @@ Architecture: all
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
 #  <more pairs, if there's more than one file to include. Notice the starting space>
-Description: Install libraries and tools needed to build keepassx 
- 
+Description: Dependencies to build keepassx 
+ Install libraries and tools needed to build keepassx
