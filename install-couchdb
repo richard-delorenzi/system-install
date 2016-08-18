@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+base="$(dirname "$0")/couchdb"
+
+echo installing dependencies
+sudo "$base"/install-couchdb-dependencies
+
+echo building
+"$base"/install-couchdb-make
+
+echo doing post install config
+sudo "$base"/install-couchdb-post

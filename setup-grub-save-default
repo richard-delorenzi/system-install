@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+confFile='/etc/default/grub'
+search='^GRUB_DEFAULT=[0-9]+$'
+replace='GRUB_DEFAULT=saved\nGRUB_SAVEDEFAULT=true'
+
+sed -ri -e "s/$search/$replace/g" "$confFile" ||
+    echo "error: could not edit $confFile"; exit
+
+update-grub
