@@ -1,0 +1,14 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-eiffel-dependencies
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
+
+Depends: libgtk2.0-dev, libxtst-dev
+# Readme: <README.Debian file; defaults to a generic one>
+Description: Dependencies for eiffel
+ Install libraries needed for eiffel
