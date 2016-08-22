@@ -1,8 +1,0 @@
-#!/bin/bash
-
-packages=(
-    libgtk2.0-dev
-    libxtst-dev
-)
-
-aptitude install  ${packages[@]}
