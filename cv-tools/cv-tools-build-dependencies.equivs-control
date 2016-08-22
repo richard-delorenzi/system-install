@@ -1,0 +1,16 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-cv-tools
+Version: 1.0
+Maintainer: richard.delorenzi
+
+#tth needed for creating doc files
+Depends: filepp, texlive-latex-base, texlive-latex-extra, tth
+
+# Readme: <README.Debian file; defaults to a generic one>
+Description:  cv-tools
+ Tools needed to build cv
