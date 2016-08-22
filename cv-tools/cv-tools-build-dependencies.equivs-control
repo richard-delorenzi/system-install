@@ -6,7 +6,7 @@ Priority: optional
 Standards-Version: 3.9.2
 Package: my-cv-tools
 Version: 1.0
-Maintainer: richard.delorenzi
+Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
 #tth needed for creating doc files
 Depends: filepp, texlive-latex-base, texlive-latex-extra, tth

@@ -6,7 +6,7 @@ Priority: optional
 Standards-Version: 3.9.2
 Package: my-couchdb-build-dependencies
 Version: 1.0
-Maintainer: richard.delorenzi
+Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
 Depends: build-essential, erlang-base-hipe, erlang-dev, erlang-manpages, erlang-eunit, erlang-nox, libicu-dev, libmozjs185-dev, libcurl4-openssl-dev
 # Readme: <README.Debian file; defaults to a generic one>
