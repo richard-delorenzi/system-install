@@ -1,0 +1,5 @@
+#!/bin/bash
+
+thisDir="$(dirname $0)"
+
+find "$thisDir" -iname "*.equivs-control" -print0 | sed -zr -e "s/equivs-control$/deb/" | xargs -0 make
