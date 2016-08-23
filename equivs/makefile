@@ -1,2 +1,6 @@
 %.deb: %.equivs-control
-	equivs-build $<
+	equivs-build "$<"
+
+.PHONY: %.install
+%.install: %.deb
+	gdebi "$<"
