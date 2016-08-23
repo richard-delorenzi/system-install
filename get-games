@@ -1,39 +1,37 @@
 #!/bin/bash
 
 packages=(
-  #games	
+  ##games	
   xye
-  xsok
+  #xsok
   xpenguins
-  xmoto
+  #xmoto
   xbubble
   xbomb
   xboing
-  vodovod
-  toppler
-  raincat
-  qonk
+  #vodovod
+  #toppler
+  #qonk
   pipewalker
   pipenightdreams
-  mirrormagic
-  minetest
+  #mirrormagic
+  #minetest
   magicor
-  laby
+  #laby
   holotz-castle
-  hex-a-hop
-  groundhog
-  gsoko
-  gpe-lights
-  frozen-bubble
+  #hex-a-hop
+  #groundhog
+  #gsoko
+  #gpe-lights
+  #frozen-bubble
   attal
-  kiki-the-nano-bot
-  berusky
+  #kiki-the-nano-bot
   xsok
-  rocksndiamonds
+  #rocksndiamonds
 
   freecraft 
   "freegish"
-  garden-of-coloured-lights glob2 pingus pioneers stax qonk thrust widelands
+  glob2 pingus pioneers stax qonk thrust widelands
 )
 
-aptitude install  ${packages[@]}
+# see equives file
