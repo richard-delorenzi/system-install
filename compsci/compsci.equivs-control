@@ -8,6 +8,7 @@ Package: my-compsci-stuff
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-Depends: kiki-the-nano-bot, laby
+Depends: kiki-the-nano-bot, laby, scratch, etoys, turtleart
+
 
 Description: stuff for teaching compsci

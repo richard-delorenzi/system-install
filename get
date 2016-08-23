@@ -81,11 +81,6 @@ packages=(
 
   ###games
   #in get-games
-
-  ###scratch
-  scratch
-  etoys
-  turtleart
   
 
   ###art
