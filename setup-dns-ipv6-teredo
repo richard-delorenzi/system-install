@@ -6,16 +6,15 @@ conf_file_name=/etc/network/if-up.d/dns-ipv6-teredo
 apt-get install miredo
  
  
-cat > "$conf_file_name" << EOF
+cat > "$conf_file_name" << "EOF"
 #! /bin/sh
 set -e
  
-
 if [ "$IFACE" = teredo ]; then
   ip6Addr="$(/sbin/ifconfig teredo | sed -rn -e "s~[[:blank:]]*inet6 addr: ([0-9a-f:]+)/[0-9]+ Scope:Global[[:blank:]]*~\1~p")"
  
 
-  auth="$(cat ~/.ssh/afraid-auth)" #still has auth visable on local machine
+  auth="$(cat ~richard/.ssh/afraid-auth)" #still has auth visable on local machine
   dns="yoga.richard.delorenzi.homenet.org"
  
   curl "https://$auth@freedns.afraid.org/nic/update?hostname=$dns&myip=$ip6Addr"
