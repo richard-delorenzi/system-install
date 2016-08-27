@@ -15,7 +15,7 @@ if [ "$IFACE" = teredo ]; then
  
 
   auth="$(cat ~richard/.ssh/afraid-auth)" #still has auth visable on local machine
-  dns="yoga.richard.delorenzi.homenet.org"
+  dns="$(uname -n).richard.delorenzi.homenet.org"
  
   curl "https://$auth@freedns.afraid.org/nic/update?hostname=$dns&myip=$ip6Addr"
 fi
