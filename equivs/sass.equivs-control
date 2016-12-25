@@ -1,0 +1,13 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-sass-stuff
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
+
+Depends: ruby-sass, sass-elisp
+
+Description: sass: a better css
