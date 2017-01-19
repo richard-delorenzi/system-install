@@ -1,0 +1,14 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-teacher-tools
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
+
+Depends: sozi
+
+
+Description: stuff for teaching
