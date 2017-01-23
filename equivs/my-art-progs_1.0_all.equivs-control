@@ -1,0 +1,13 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-art-progs
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
+
+Depends: fontforge, gimp 
+
+Description: art programs
