@@ -1,5 +1,5 @@
 %.deb: %.equivs-control 
-	equivs-build "$<" #names do not match
+	equivs-build "$<"
 
 .PHONY: %.install
 %.install: %.deb
