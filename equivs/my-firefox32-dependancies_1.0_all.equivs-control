@@ -1,0 +1,20 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-firefox32-dependancies
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
+Architecture: i386
+
+#install the esr firefox, as this will install all dependencies
+Depends: firefox-esr:i386
+
+#gtk3-engines-oxygen fixes the menus, so that they have borders, and are easier to read.
+Recommends: gtk3-engines-oxygen:i386
+
+
+
+Description: firefox32 needs these
