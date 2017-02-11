@@ -1,5 +1,6 @@
+
 #make deb
-%.deb: %.equivs-control 
+%.deb: ../equivs/%.equivs-control 
 	equivs-build "$<"
 
 #install one
@@ -8,8 +9,8 @@
 	sudo gdebi "$<"
 
 #install all
-src=$(wildcard *.equivs-control)
-debs=$(src:%.equivs-control=%.deb)
+src=$(wildcard ../equivs/*.equivs-control)
+debs=$(src:../equivs/%.equivs-control=%.deb)
 
 .PHONY: install
 install: $(debs)
