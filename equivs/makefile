@@ -15,3 +15,7 @@ debs=$(src:../equivs/%.equivs-control=%.deb)
 .PHONY: install
 install: $(debs)
 	sudo gdebi $?
+
+.PHONY: all
+all: $(debs)
+	%echo done
