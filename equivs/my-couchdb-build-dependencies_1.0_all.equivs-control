@@ -8,7 +8,11 @@ Package: my-couchdb-build-dependencies
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-Depends: build-essential, erlang-base-hipe, erlang-dev, erlang-manpages, erlang-eunit, erlang-nox, libicu-dev, libmozjs185-dev, libcurl4-openssl-dev
+Depends: build-essential, pkg-config, erlang, libicu-dev, libmozjs185-dev, libcurl4-openssl-dev
+
+#erlang-base-hipe, erlang-dev, erlang-eunit, erlang-nox, erlang-manpages
+
 # Readme: <README.Debian file; defaults to a generic one>
+
 Description: Dependencies to build couchdb
  Install libraries and tools needed to build couchdb
