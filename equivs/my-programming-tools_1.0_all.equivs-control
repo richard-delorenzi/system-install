@@ -8,9 +8,22 @@ Package: my-programming-tools
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-Depends: diffpdf,diffuse,dirdiff
+##diff
+Depends: diffpdf,diffuse,dirdiff,kdiff3,meld
 #diffoscope
 #latexdiff,numdiff,perceptualdiff,
 #vbindiff
 
-Description: diff tools
+##
+Depends: couchapp, cmake, make, idle3, ipython3-qtconsole, ruby-mustache
+
+Depends: umbrello
+
+Depends: monodevelop, monodevelop-nunit, monodevelop-versioncontrol
+
+## revision control
+Depends: cvs, easygit, git, git-flow, git-gui, hgview, kdesvn, mercurial-common, mercurial-git, subversion, tortoisehg-nautilus
+
+
+
+Description: programming tools

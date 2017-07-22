@@ -8,9 +8,17 @@ Package: my-games
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
+##logic
 Depends: hex-a-hop, mirrormagic, lightsoff, magicor
 Depends: atomix, plm, pipewalker, pathological
-#Depends: enigma, 
+#Depends: enigma,
 
-Description: logic games
+##education
+Depends: dvorak7min
+
+##misc
+Depends: amor, cowsay,
+
+##
+Description: games
   logic games 
