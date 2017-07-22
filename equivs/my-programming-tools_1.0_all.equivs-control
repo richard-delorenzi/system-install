@@ -4,13 +4,13 @@ Section: local
 Priority: optional
 #Homepage: https:
 Standards-Version: 3.9.2
-Package: my-logic-games
+Package: my-programming-tools
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-Depends: hex-a-hop, mirrormagic, lightsoff, magicor
-Depends: atomix, plm, pipewalker, pathological
-#Depends: enigma, 
+Depends: diffpdf,diffuse,dirdiff
+#diffoscope
+#latexdiff,numdiff,perceptualdiff,
+#vbindiff
 
-Description: logic games
-  logic games 
+Description: diff tools
