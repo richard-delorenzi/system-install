@@ -8,7 +8,9 @@ Package: my-logic-games
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-Depends: hex-a-hop, mirrormagic, lightsoff, magicor, plm
+Depends: hex-a-hop, mirrormagic, lightsoff, magicor
+Depends: atomix, plm, pipewalker, pathological
+#Depends: enigma, 
 
 Description: logic games
-  logic games I like
+  logic games 
