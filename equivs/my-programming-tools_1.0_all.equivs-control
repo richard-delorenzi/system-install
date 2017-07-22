@@ -15,7 +15,7 @@ Depends: diffpdf,diffuse,dirdiff,kdiff3,meld
 #vbindiff
 
 ##
-Depends: couchapp, cmake, make, idle3, ipython3-qtconsole, ruby-mustache
+Depends: couchapp, cmake, make, idle3, ipython3-qtconsole, ruby-mustache, nodejs
 
 Depends: umbrello
 

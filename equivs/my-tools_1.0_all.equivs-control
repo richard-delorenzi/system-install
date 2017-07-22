@@ -18,7 +18,7 @@ Depends: acl, cpufrequtils, encfs, equivs, etckeeper, baobab, backintime-kde, gp
 Depends: tightvncserver, xvnc4viewer, torbrowser-launcher
 
 ##desktop
-Depends: task-british-desktop, task-british-kde-desktop, task-desktop, task-english, task-kde-desktop, task-laptop
+Depends: task-british-desktop, task-british-kde-desktop, task-desktop, task-english, task-kde-desktop, task-laptop 
 
 Depends: plasma-widget-adjustableclock, plasma-widget-fastuserswitch, plasma-widget-ktorrent, plasma-widget-menubar, plasma-widget-smooth-tasks, plasma-widget-veromix, redshift-plasmoid
 
@@ -32,7 +32,7 @@ Depends: zenmap, wireshark
 Depends: lsb, lsb-base, lsb-security
 
 ##other
-Depends: luckybackup
+#Depends: luckybackup
 
 
 
