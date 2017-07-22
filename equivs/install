@@ -1,13 +1,10 @@
 #!/bin/bash
 
 
-packages() {
-    for f in "$@"
-    do
-	base=$(basename "$f" .deb)
-	package="$base.install"
-	echo "$package"
-    done
-}
 
-packages "$@" | xargs make 
+for f in "$@"
+do
+    base=$(basename "$f" .deb)
+    package="$base.install"
+    make "$package"
+done 

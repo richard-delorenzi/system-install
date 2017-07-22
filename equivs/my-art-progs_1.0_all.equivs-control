@@ -8,7 +8,7 @@ Package: my-art-progs
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-Depends: fontforge, gimp, gimp-gap, audacity, blender, dia, gpaint, grafx2, kdenlive, openshot, synfigstudio
+Depends: fontforge, gimp, gimp-gap, audacity, blender, dia, gpaint, grafx2, kdenlive, openshot, synfigstudio, cheese,
 
 
 

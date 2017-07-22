@@ -8,29 +8,8 @@ Package: my-tools
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-##misc
-Depends: bomstrip, nodejs, dos2unix, faketime, wget, nocache, schedtool, smem, inotify-tools, keepass2, keepassx, mawk, mmv, yakuake, xdotool
 
-##admin
-Depends: acl, cpufrequtils, encfs, equivs, etckeeper, baobab, backintime-kde, gparted, gufw, gvncviewer, htop, multiarch-support, sshfs, bindfs, stow, k4dirstat,openssh-client, openssh-server, vim
-
-
-##
-Depends: tightvncserver, xvnc4viewer, torbrowser-launcher
-
-##desktop
-Depends: task-british-desktop, task-british-kde-desktop, task-desktop, task-english, task-kde-desktop, task-laptop 
-
-Depends: plasma-widget-adjustableclock, plasma-widget-fastuserswitch, plasma-widget-ktorrent, plasma-widget-menubar, plasma-widget-smooth-tasks, plasma-widget-veromix, redshift-plasmoid
-
-##
-Depends: virtualbox-5.1
-
-##
-Depends: zenmap, wireshark
-
-##libs
-Depends: lsb, lsb-base, lsb-security
+Depends: bomstrip, nodejs, dos2unix, faketime, wget, nocache, schedtool, smem, inotify-tools, keepass2, keepassx, mawk, mmv, yakuake, xdotool, acl, baobab, backintime-kde, gparted, gufw, gvncviewer, htop, multiarch-support, sshfs, bindfs, stow, k4dirstat,openssh-client, openssh-server, vim, tightvncserver, xvnc4viewer, xtightvncviewer, torbrowser-launcher, task-british-desktop, task-british-kde-desktop, task-desktop, task-english, task-kde-desktop, task-laptop, plasma-widget-adjustableclock, plasma-widget-fastuserswitch, plasma-widget-ktorrent, plasma-widget-menubar, plasma-widget-smooth-tasks, plasma-widget-veromix, redshift-plasmoid, virtualbox-5.1, zenmap, wireshark, lsb, lsb-base, lsb-security, etckeeper
 
 ##other
 #Depends: luckybackup
