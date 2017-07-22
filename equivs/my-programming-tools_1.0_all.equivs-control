@@ -22,7 +22,7 @@ Depends: umbrello
 Depends: monodevelop, monodevelop-nunit, monodevelop-versioncontrol
 
 ## revision control
-Depends: cvs, easygit, git, git-flow, git-gui, hgview, kdesvn, mercurial-common, mercurial-git, subversion, tortoisehg-nautilus
+Depends: cvs, easygit, git, git-flow, git-gui, gitg, hgview, kdesvn, mercurial-common, mercurial-git, subversion, tortoisehg-nautilus
 
 
 

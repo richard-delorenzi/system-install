@@ -12,7 +12,8 @@ Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 Depends: bomstrip, nodejs, dos2unix, faketime, wget, nocache, schedtool, smem, inotify-tools, keepass2, keepassx, mawk, mmv, yakuake, xdotool
 
 ##admin
-Depends: acl, cpufrequtils, encfs, equivs, etckeeper, baobab, backintime-kde, gparted, gufw, gvncviewer, htop, multiarch-support, sshfs, bindfs, stow, xrandr
+Depends: acl, cpufrequtils, encfs, equivs, etckeeper, baobab, backintime-kde, gparted, gufw, gvncviewer, htop, multiarch-support, sshfs, bindfs, stow, k4dirstat,openssh-client, openssh-server, vim
+
 
 ##
 Depends: tightvncserver, xvnc4viewer, torbrowser-launcher
