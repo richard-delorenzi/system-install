@@ -8,7 +8,7 @@ Package: my-tools
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-Depends: bomstrip
+Depends: bomstrip, nodejs
 
 # Readme: <README.Debian file; defaults to a generic one>
 Description:  tools
