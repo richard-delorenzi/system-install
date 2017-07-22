@@ -8,7 +8,8 @@ Package: my-games
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 
-Depends: hex-a-hop, mirrormagic, lightsoff, magicor,atomix, plm, pipewalker, pathological,dvorak7min, amor, cowsay,dvorak7min, amor, cowsay,
+Depends: hex-a-hop, mirrormagic, lightsoff, magicor,atomix, plm, pipewalker, pathological,dvorak7min, amor, cowsay,dvorak7min, amor, cowsay, 0ad, black-box, colobot, etoys, gnurobots, gvrng, kiki-the-nano-bot, laby
+
 
 #Depends: enigma
 
