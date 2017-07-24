@@ -1,5 +1,5 @@
 #!/bin/bash
-ln -s -t . src/*
+ln -fs -t . src/*
 
 #find if not installed (or auto)
 not_installed=$(comm -3 \
