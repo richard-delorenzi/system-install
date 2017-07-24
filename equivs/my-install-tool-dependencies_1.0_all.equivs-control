@@ -1,0 +1,15 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-install-tool-dependencies
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@local>
+
+Depends: python3-pystache, equivs, make, gdebi-core
+
+# Readme: <README.Debian file; defaults to a generic one>
+Description: tools used my install tool
+  bootstrapping staff for install tool

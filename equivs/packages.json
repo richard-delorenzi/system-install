@@ -1,11 +1,11 @@
 {
     "selected" : [
-	"tools-for-self",
+	"dependancies-to-make-self",
 	"tools",
 	"programming-tools"
     ],
     "groups" : {
-	"tools-for-self": [
+	"dependancies-to-make-self": [
 	    "python3-pystache",
 	    "equivs",
 	    "make",
