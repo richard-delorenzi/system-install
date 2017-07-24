@@ -4,7 +4,7 @@ Section: local
 Priority: optional
 #Homepage: https:
 Standards-Version: 3.9.2
-Package: my-stuff
+Package: my-packages
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@local>
 
