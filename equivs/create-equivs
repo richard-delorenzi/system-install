@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+
+import json
+import pystache
+
+with open('packages.json') as data_file:    
+    data = json.load(data_file)
+
+    to_install=[]
+    for selection in data["selected"]:
+        to_install.extend(data["groups"][selection])
+    print (to_install)
+

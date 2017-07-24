@@ -1,0 +1,15 @@
+### This file auto generated, don't edit
+
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-stuff
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@local>
+
+Depends: {{packages}}
+
+# Readme: <README.Debian file; defaults to a generic one>
+Description: All of the stuff I want installed.
+ This is managed by my install script system.
