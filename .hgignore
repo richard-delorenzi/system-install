@@ -1,8 +1,5 @@
 syntax: glob
-*.deb
 afraid-auth
 
 syntax: regexp
-^debs/.*[.]equivs-control
-^debs/build
-^debs/makefile
+^debs/
