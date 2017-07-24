@@ -5,9 +5,18 @@ import pystache
 
 with open('packages.json') as data_file:    
     data = json.load(data_file)
+with open('equivs-control.template') as template_file:
+    template = template_file.read()
 
-    to_install=[]
-    for selection in data["selected"]:
-        to_install.extend(data["groups"][selection])
-    print (to_install)
+packages=[]
+for selection in data["selected"]:
+    packages.extend(data["groups"][selection])
+
+with open(
+        'my-packages_1.0_all.equivs-control',
+        "w") as output:
+    output.write(
+        pystache.render(
+            template,
+            {'packages': ", ".join(packages)}))
 
