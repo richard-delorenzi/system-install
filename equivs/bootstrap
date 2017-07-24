@@ -1,0 +1,18 @@
+#!/bin/bash
+ln -s -t . src/*
+
+#find if not installed (or auto)
+not_installed=$(comm -3
+    <(apt-mark showmanual equivs gdebi-core make)
+    <(echo -e "equivs\ngdebi-core\nmake") )
+
+#install what we need: install-stack.push
+sudo apt-get install equivs gdebi-core make
+#install our bootstrap package
+make my-install-tool-dependencies_1.0_all.install
+#install-stack.pop
+echo $not_installed | xargs sudo apt-mark auto
+
+
+
+
