@@ -2,8 +2,8 @@
 ln -s -t . src/*
 
 #find if not installed (or auto)
-not_installed=$(comm -3
-    <(apt-mark showmanual equivs gdebi-core make)
+not_installed=$(comm -3 \
+    <(apt-mark showmanual equivs gdebi-core make)\
     <(echo -e "equivs\ngdebi-core\nmake") )
 
 #install what we need: install-stack.push
