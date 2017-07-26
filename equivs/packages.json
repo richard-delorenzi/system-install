@@ -2,7 +2,8 @@
     "selected" : [
 	"dependancies-to-make-self",
 	"tools",
-	"programming-tools"
+	"programming-tools",
+	"firejail-stuff"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
