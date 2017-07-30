@@ -124,12 +124,14 @@
             "git-flow",
             "git-gui",
             "gitg",
+	    "tig",
             "hgview",
             "kdesvn",
             "mercurial-common",
             "mercurial-git",
             "subversion",
-            "tortoisehg-nautilus"
+            "tortoisehg-nautilus",
+	    "markdown"
 	],
 	"games" : [
             "hex-a-hop",
