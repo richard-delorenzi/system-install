@@ -3,7 +3,9 @@
 	"dependancies-to-make-self",
 	"tools",
 	"programming-tools",
-	"firejail-stuff"
+	"firejail-stuff",
+	"revision-control",
+	"remote-audio"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -102,6 +104,21 @@
             "etoys",
             "turtleart"
 	],
+	"revision-control":[
+	    "cvs",
+            "easygit",
+            "git",
+            "git-flow",
+            "git-gui",
+            "gitg",
+	    "tig",
+            "hgview",
+            "kdesvn",
+	    "mercurial-common",
+            "mercurial-git",
+            "subversion",
+            "tortoisehg-nautilus"
+	],
 	"programming-tools" : [
             "diffpdf",
             "diffuse",
@@ -118,19 +135,6 @@
             "monodevelop",
             "monodevelop-nunit",
             "monodevelop-versioncontrol",
-            "cvs",
-            "easygit",
-            "git",
-            "git-flow",
-            "git-gui",
-            "gitg",
-	    "tig",
-            "hgview",
-            "kdesvn",
-            "mercurial-common",
-            "mercurial-git",
-            "subversion",
-            "tortoisehg-nautilus",
 	    "markdown"
 	],
 	"games" : [
@@ -189,6 +193,10 @@
             "openshot",
             "synfigstudio",
             "cheese"
+	],
+	"remote-audio" : [
+	    "padevchooser",
+	    "paprefs"
 	]
     }
 }
