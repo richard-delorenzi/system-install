@@ -2,10 +2,8 @@
     "selected" : [
 	"dependancies-to-make-self",
 	"tools",
-	"programming-tools",
-	"firejail-stuff",
 	"revision-control",
-	"remote-audio"
+	"kde"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -29,7 +27,6 @@
             "schedtool",
             "smem",
             "inotify-tools",
-            "keepass2",
             "keepassx",
             "mawk",
             "mmv",
@@ -37,10 +34,8 @@
             "xdotool",
             "acl",
             "baobab",
-            "backintime-kde",
             "gparted",
             "gufw",
-            "gvncviewer",
             "htop",
             "multiarch-support",
             "sshfs",
@@ -50,30 +45,41 @@
             "openssh-client",
             "openssh-server",
             "vim",
+            "etckeeper"
+	],
+	"lsb" :[
+	    "lsb",
+            "lsb-base",
+            "lsb-security"
+	],
+	"virtual-box" :[
+            "virtualbox-5.1"
+	],
+	"backup" : [
+	    "backintime-kde"
+	],
+	"vnc" :[
             "tightvncserver",
             "xvnc4viewer",
-            "xtightvncviewer",
-            "torbrowser-launcher",
+	    "gvncviewer",
+            "xtightvncviewer"
+	],
+	"network-analysis": [
+            "zenmap",
+            "wireshark"
+	],
+	"kde" : [
             "task-british-desktop",
             "task-british-kde-desktop",
             "task-desktop",
             "task-english",
             "task-kde-desktop",
             "task-laptop",
-            "plasma-widget-adjustableclock",
-            "plasma-widget-fastuserswitch",
-            "plasma-widget-ktorrent",
-            "plasma-widget-menubar",
-            "plasma-widget-smooth-tasks",
-            "plasma-widget-veromix",
-            "redshift-plasmoid",
-            "virtualbox-5.1",
-            "zenmap",
-            "wireshark",
-            "lsb",
-            "lsb-base",
-            "lsb-security",
-            "etckeeper"
+            "redshift-plasmoid"
+	],
+	"kde-bonus" : [
+	    "plasma-widget-smooth-tasks",
+            "plasma-widget-veromix"
 	],
 	"cv-tools" : [
             "filepp",
@@ -115,7 +121,6 @@
             "hgview",
             "kdesvn",
 	    "mercurial-common",
-            "mercurial-git",
             "subversion",
             "tortoisehg-nautilus"
 	],
@@ -197,6 +202,9 @@
 	"remote-audio" : [
 	    "padevchooser",
 	    "paprefs"
+	],
+	"tor" : [
+	    "torbrowser-launcher"
 	]
     }
 }
