@@ -76,7 +76,8 @@
             "task-english",
             "task-kde-desktop",
             "task-laptop",
-            "redshift-plasmoid"
+            "redshift-plasmoid",
+	    "plasma-theme-oxygen"
 	],
 	"kde-bonus" : [
 	    "plasma-widget-smooth-tasks",
