@@ -1,5 +1,6 @@
 #!/bin/bash
-ln -fs -t . src/*
+ln -fs -T ../equivs src
+ln -fs -t . src/makefile
 
 #find if not installed (or auto)
 not_installed=$(comm -3 \
@@ -8,8 +9,11 @@ not_installed=$(comm -3 \
 
 #install what we need: install-stack.push
 sudo apt-get install equivs gdebi-core make
+
 #install our bootstrap package
+ln -fs -t . src/my-install-tool-dependencies_1.0_all.equivs-control
 make my-install-tool-dependencies_1.0_all.install
+
 #install-stack.pop
 echo $not_installed | xargs sudo apt-mark auto
 
