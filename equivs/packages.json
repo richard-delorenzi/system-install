@@ -45,7 +45,8 @@
             "openssh-client",
             "openssh-server",
             "vim",
-            "etckeeper"
+            "etckeeper",
+	    "rsync"
 	],
 	"lsb" :[
 	    "lsb",
