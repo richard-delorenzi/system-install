@@ -3,7 +3,9 @@
 	"dependancies-to-make-self",
 	"tools",
 	"revision-control",
-	"kde"
+	"kde",
+	"desktop-tools",
+	"games2"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -46,7 +48,13 @@
             "openssh-server",
             "vim",
             "etckeeper",
-	    "rsync"
+	    "rsync",
+	    "emacs",
+	    "vim",
+	    "avahi-discover"
+	],
+	"desktop-tools" : [
+            "chromium"
 	],
 	"lsb" :[
 	    "lsb",
@@ -77,7 +85,8 @@
             "task-kde-desktop",
             "task-laptop",
             "redshift-plasmoid",
-	    "plasma-theme-oxygen"
+	    "plasma-theme-oxygen",
+	    "appmenu-qt"
 	],
 	"kde-bonus" : [
 	    "plasma-widget-smooth-tasks",
@@ -114,17 +123,21 @@
 	],
 	"revision-control":[
 	    "cvs",
+	    
             "easygit",
             "git",
             "git-flow",
             "git-gui",
             "gitg",
 	    "tig",
-            "hgview",
+	    
             "kdesvn",
-	    "mercurial-common",
             "subversion",
-            "tortoisehg-nautilus"
+
+	    "hgview",
+	    "mercurial-common",
+            "tortoisehg-nautilus",
+	    "python-dulwich"
 	],
 	"programming-tools" : [
             "diffpdf",
@@ -167,6 +180,9 @@
             "gvrng",
             "kiki-the-nano-bot",
             "laby"
+	],
+	"games2" : [
+	    "mupen64plus-qt"
 	],
 	"keepassx-build-dependencies" : [
             "build-essential",
