@@ -5,7 +5,9 @@
 	"revision-control",
 	"kde",
 	"desktop-tools",
-	"games2"
+	"network-analysis",
+	"robot",
+	"cad"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -86,6 +88,8 @@
             "task-laptop",
             "redshift-plasmoid",
 	    "plasma-theme-oxygen",
+	    "gtk2-engines-oxygen",
+	    "libreoffice-style-oxygen",
 	    "appmenu-qt"
 	],
 	"kde-bonus" : [
@@ -223,6 +227,20 @@
 	],
 	"tor" : [
 	    "torbrowser-launcher"
+	],
+	"robot" : [
+	    "arduino",
+	    "squeak-vm",
+	    "squeak-plugins-scratch"
+	],
+	"cad" : [
+	    "freecad",
+	    "leocad",
+	    "librecad",
+	    "openscad"
+	],
+	"docker" : [
+	    "dockerio"
 	]
     }
 }
