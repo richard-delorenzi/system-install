@@ -7,7 +7,8 @@
 	"desktop-tools",
 	"network-analysis",
 	"robot",
-	"cad"
+	"cad",
+	"config-file-editor"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -241,6 +242,12 @@
 	],
 	"docker" : [
 	    "dockerio"
+	],
+	"config-file-editor" : [
+	    "augeas-lenses",
+	    "augeas-tools",
+	    "augeas-doc",
+	    "python3-augeas"
 	]
     }
 }
