@@ -1,0 +1,6 @@
+#!/bin/bash
+# Make sure the keyboards that I use are selectable on the SDDM greeter screen.
+if ! grep setxkbmap /usr/share/sddm/scripts/Xsetup 1> /dev/null
+then
+  echo "setxkbmap -layout us,gb -variant dvorak," >> /usr/share/sddm/scripts/Xsetup
+fi
