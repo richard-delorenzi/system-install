@@ -8,7 +8,8 @@
 	"network-analysis",
 	"robot",
 	"cad",
-	"config-file-editor"
+	"config-file-editor",
+	"docker-dependencies"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -240,8 +241,12 @@
 	    "librecad",
 	    "openscad"
 	],
-	"docker" : [
-	    "dockerio"
+	"docker-dependencies" : [
+	    "apt-transport-https",
+	    "ca-certificates",
+	    "curl",
+	    "gnupg2",
+	    "software-properties-common"
 	],
 	"config-file-editor" : [
 	    "augeas-lenses",
