@@ -1,0 +1,13 @@
+#!/bin/bash
+
+baseName=~/+Files/ipfs/docker
+staging="$baseName/staging"
+data="$baseName/data"
+
+mkdir -p "$staging"
+mkdir -p "$data"
+
+docker run -d --name ipfs-node \
+  -v "$staging":/export -v "$data":/data/ipfs \
+  -p 8080:8080 -p 4001:4001 -p 127.0.0.1:5001:5001 \
+  jbenet/go-ipfs:latest
