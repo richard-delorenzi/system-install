@@ -7,7 +7,8 @@
 	"desktop-tools",
 	"games2",
 	"hw-cad",
-	"security"
+	"security",
+	"diff-tools"
     ],
     "groups" : {
 	"hw-cad":[
@@ -146,12 +147,14 @@
             "tortoisehg-nautilus",
 	    "python-dulwich"
 	],
-	"programming-tools" : [
-            "diffpdf",
+	"diff-tools" :[
+	    "diffpdf",
             "diffuse",
             "dirdiff",
             "kdiff3",
-            "meld",
+            "meld"
+	],
+	"programming-tools" : [
             "couchapp",
             "cmake",
             "make",
