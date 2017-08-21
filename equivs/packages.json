@@ -6,15 +6,15 @@
 	"kde",
 	"desktop-tools",
 	"games2",
-	"hw-cad",
 	"security",
-	"diff-tools"
+	"diff-tools",
+	"network-analysis",
+	"robot",
+	"cad",
+	"config-file-editor",
+	"docker-dependencies"
     ],
     "groups" : {
-	"hw-cad":[
-	    "librecad",
-	    "openscad"
-	],
 	"dependancies-to-make-self": [
 	    "python3-pystache",
 	    "equivs",
@@ -94,6 +94,8 @@
             "task-laptop",
             "redshift-plasmoid",
 	    "plasma-theme-oxygen",
+	    "gtk2-engines-oxygen",
+	    "libreoffice-style-oxygen",
 	    "appmenu-qt"
 	],
 	"kde-bonus" : [
@@ -236,6 +238,30 @@
 	],
 	"security" : [
 	    "encfs"
+	],
+	"robot" : [
+	    "arduino",
+	    "squeak-vm",
+	    "squeak-plugins-scratch"
+	],
+	"cad" : [
+	    "freecad",
+	    "leocad",
+	    "librecad",
+	    "openscad"
+	],
+	"docker-dependencies" : [
+	    "apt-transport-https",
+	    "ca-certificates",
+	    "curl",
+	    "gnupg2",
+	    "software-properties-common"
+	],
+	"config-file-editor" : [
+	    "augeas-lenses",
+	    "augeas-tools",
+	    "augeas-doc",
+	    "python3-augeas"
 	]
     }
 }
