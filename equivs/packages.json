@@ -5,9 +5,15 @@
 	"revision-control",
 	"kde",
 	"desktop-tools",
-	"games2"
+	"games2",
+	"hw-cad",
+	"security"
     ],
     "groups" : {
+	"hw-cad":[
+	    "librecad",
+	    "openscad"
+	],
 	"dependancies-to-make-self": [
 	    "python3-pystache",
 	    "equivs",
@@ -54,7 +60,8 @@
 	    "avahi-discover"
 	],
 	"desktop-tools" : [
-            "chromium"
+            "chromium",
+	    "vlc"
 	],
 	"lsb" :[
 	    "lsb",
@@ -223,6 +230,9 @@
 	],
 	"tor" : [
 	    "torbrowser-launcher"
+	],
+	"security" : [
+	    "encfs"
 	]
     }
 }
