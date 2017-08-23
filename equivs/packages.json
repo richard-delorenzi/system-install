@@ -12,7 +12,7 @@
 	"robot",
 	"cad",
 	"config-file-editor",
-	"docker-dependencies"
+	"config-managment"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -250,18 +250,14 @@
 	    "librecad",
 	    "openscad"
 	],
-	"docker-dependencies" : [
-	    "apt-transport-https",
-	    "ca-certificates",
-	    "curl",
-	    "gnupg2",
-	    "software-properties-common"
-	],
 	"config-file-editor" : [
 	    "augeas-lenses",
 	    "augeas-tools",
 	    "augeas-doc",
 	    "python3-augeas"
+	],
+	"config-managment" : [
+	    "ansible"
 	]
     }
 }
