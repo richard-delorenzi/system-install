@@ -1,12 +1,18 @@
 #!/bin/bash
 
-adduser --system svn
-ln -fsT /media/extra/mystuff/svn-repos /var/svn
-chown -R svn /var/svn/
+adduser  --system svn
+addgroup --system svn
+adduser svn svn
+usermod --shell /bin/bash svn
+
+
+ln -fsT /home/svn-repos /var/svn
+
 mkdir -p ~svn/.ssh
+echo 'command="svnserve -t -r /var/svn --tunnel-user=richard",no-port-forwarding,no-agent-forwarding,no-X11-forwarding,no-pty' $(cat ~richard/.ssh/rsa.pub) > ~svn/.ssh/authorized_keys
 
-echo 'command="svnserve -t -r /var/svn --tunnel-user=richard", no-port-forwarding,no-agent-forwarding,no-X11-forwarding, no-pty' $(cat ~richard/.ssh/rsa.pub) >> ~svn/.ssh/authorized_keys
 
-chown -R svn:svn ~svn/.ssh
+chown -R svn:svn /var/svn/
+chown -R svn:svn ~svn
 chmod -R og-rwx ~svn/.ssh
 
