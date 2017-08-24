@@ -12,7 +12,8 @@
 	"robot",
 	"cad",
 	"config-file-editor",
-	"config-managment"
+	"config-managment",
+	"cv-tools"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
