@@ -1,8 +1,8 @@
 ---
 - name: install docker
 - hosts: desktops
-
-- include: debian-docker-setup-ansible.yml
-  when: "ansible_distribution == 'Debian'"
-  tags:
-    - docker
+  tasks:
+    - include: debian-docker-setup-ansible.yml
+      when: "ansible_distribution == 'Debian'"
+      tags:
+        - docker

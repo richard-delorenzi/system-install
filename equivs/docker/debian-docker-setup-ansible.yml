@@ -1,24 +1,36 @@
 ---
+- name: docker
+  hosts: desktops
+  become: yes
+  tasks:
+  - name: Install required packages
+    apt:
+      name: "{{ item }}"
+      update_cache: yes
+      state: installed
+    with_items:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - gnupg2
+      - software-properties-common
 
-- name: Install required packages
-  apt: name={{ item }} update_cache=yes state=installed force=yes
-  with_items:
-    - apt-transport-https
-    - ca-certificates
-    - curl
-    - gnupg2
-    - software-properties-common
+  - name: add cryptographic key
+    apt_key:
+      id: 9DC858229FC7DD38854AE2D88D81803C0EBFCD88
+      url: "https://download.docker.com/linux/debian/gpg"
+      state: present
 
-- apt_key:
-    id: 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
-    url: "https://download.docker.com/linux/debian/gpg"
-    state: present
+  - name: Add docker.io repo
+    apt_repository:
+      repo: 'deb [arch=amd64]  https://download.docker.com/linux/debian stretch stable'
+      state: present
 
-- name: Add docker.io repo
-  apt_repository: repo='deb [arch=amd64]  https://download.docker.com/linux/debian stretch stable' state=present
-
-- name: Install docker
-  apt: name=docker-ce update_cache=yes state=installed force=yes
+  - name: Install docker
+    apt:
+      name: docker-ce
+      update_cache: yes
+      state: installed
 
 
 
