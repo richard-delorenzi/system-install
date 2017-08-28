@@ -13,7 +13,8 @@
 	"cad",
 	"config-file-editor",
 	"config-managment",
-	"cv-tools"
+	"cv-tools",
+	"tor"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -133,6 +134,8 @@
             "turtleart"
 	],
 	"revision-control":[
+	    "dolphin-plugins",
+	    
 	    "cvs",
 	    
             "easygit",
@@ -234,8 +237,11 @@
 	    "padevchooser",
 	    "paprefs"
 	],
-	"tor" : [
+	"tor-browser" : [
 	    "torbrowser-launcher"
+	],
+	"tor" : [
+	    "tor"
 	],
 	"security" : [
 	    "encfs"
