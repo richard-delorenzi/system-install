@@ -60,7 +60,8 @@
 	    "rsync",
 	    "emacs",
 	    "vim",
-	    "avahi-discover"
+	    "avahi-discover",
+	    "yaml-mode"
 	],
 	"desktop-tools" : [
             "chromium",
