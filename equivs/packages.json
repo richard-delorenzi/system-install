@@ -62,6 +62,7 @@
 	],
 	"system" : [
 	    "intel-microcode",
+	    "firmware-linux",
 	    "multiarch-support",
 	    "cpufrequtils",
 	    "openssh-server",
