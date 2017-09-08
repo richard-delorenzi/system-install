@@ -1,11 +1,11 @@
 {
     "selected" : [
 	"dependancies-to-make-self",
+	"system",
 	"tools",
 	"revision-control",
 	"kde",
 	"desktop-tools",
-	"games2",
 	"security",
 	"diff-tools",
 	"network-analysis",
@@ -14,7 +14,8 @@
 	"config-file-editor",
 	"config-managment",
 	"cv-tools",
-	"tor"
+	"tor",
+	"python"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -48,20 +49,24 @@
             "gparted",
             "gufw",
             "htop",
-            "multiarch-support",
             "sshfs",
             "bindfs",
-            "stow",
             "k4dirstat",
             "openssh-client",
-            "openssh-server",
             "vim",
-            "etckeeper",
 	    "rsync",
 	    "emacs",
 	    "vim",
 	    "avahi-discover",
 	    "yaml-mode"
+	],
+	"system" : [
+	    "intel-microcode",
+	    "multiarch-support",
+	    "cpufrequtils",
+	    "openssh-server",
+	    "stow",
+	    "etckeeper"
 	],
 	"desktop-tools" : [
             "chromium",
@@ -160,6 +165,10 @@
             "dirdiff",
             "kdiff3",
             "meld"
+	],
+	"python" : [
+	    "idle3",
+            "ipython3-qtconsole"
 	],
 	"programming-tools" : [
             "couchapp",
