@@ -58,7 +58,9 @@
 	    "emacs",
 	    "vim",
 	    "avahi-discover",
-	    "yaml-mode"
+	    "yaml-mode",
+	    "elpa-markdown-mode",
+	    "markdown"
 	],
 	"system" : [
 	    "intel-microcode",
