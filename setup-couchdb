@@ -1,9 +1,6 @@
 #!/bin/bash
 
-#augtool -b -s \
-#  defnode host '/files/etc/hosts/*[ipaddr = "127.0.0.1"]' \
-#  set "$host/alias[last()+1]" mycouchdb
-
+#add mycouchdb as alias of localhost
 augtool -b -s \
   set '/files/etc/hosts/*[ipaddr = "127.0.0.1"]/alias[last()+1]' mycouchdb
 
