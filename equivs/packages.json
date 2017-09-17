@@ -15,7 +15,8 @@
 	"config-managment",
 	"cv-tools",
 	"tor",
-	"python"
+	"python",
+	"haskell-programming"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -45,7 +46,6 @@
             "yakuake",
             "xdotool",
             "acl",
-            "baobab",
             "gparted",
             "gufw",
             "htop",
@@ -60,7 +60,9 @@
 	    "avahi-discover",
 	    "yaml-mode",
 	    "elpa-markdown-mode",
-	    "markdown"
+	    "markdown",
+	    "pandoc",
+	    "dc"
 	],
 	"system" : [
 	    "intel-microcode",
@@ -185,6 +187,10 @@
             "monodevelop-nunit",
             "monodevelop-versioncontrol",
 	    "markdown"
+	],
+	"haskell-programming" : [
+	    "haskell-mode",
+	    "haskell-platform"
 	],
 	"games" : [
             "hex-a-hop",
