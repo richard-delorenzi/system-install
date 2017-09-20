@@ -16,7 +16,9 @@
 	"cv-tools",
 	"tor",
 	"python",
-	"haskell-programming"
+	"haskell-programming",
+	"audio-tools",
+	"backup"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -38,6 +40,7 @@
             "wget",
             "nocache",
             "schedtool",
+	    "cpulimit",
             "smem",
             "inotify-tools",
             "keepassx",
@@ -251,6 +254,9 @@
             "openshot",
             "synfigstudio",
             "cheese"
+	],
+	"audio-tools" : [
+	    "lame"
 	],
 	"remote-audio" : [
 	    "padevchooser",
