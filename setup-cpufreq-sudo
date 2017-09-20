@@ -2,12 +2,14 @@
 
 export AUGEAS_ROOT=/home/richard/+Files/workshops/system/install/tmp
 aliasName=CPUFREQ
+cmd1="/usr/bin/cpufreq-set -u 500"
+cmd2="/usr/bin/cpufreq-set -u 2000"
 
 augtool -b -s "
     context /files/etc/sudoers.d/cpufreq
-    set Cmnd_Alias[alias/name = 'CPUFREQ']/alias/name CPUFREQ
-    set Cmnd_Alias[alias/name = 'CPUFREQ']/alias/command[1] '/usr/bin/cpufreq-set -u 500'
-    set Cmnd_Alias[alias/name = 'CPUFREQ']/alias/command[2] '/usr/bin/cpufreq-set -u 2000'
+    set Cmnd_Alias[alias/name = '$aliasName']/alias/name $aliasName
+    set Cmnd_Alias[alias/name = '$aliasName']/alias/command[1] '$cmd1'
+    set Cmnd_Alias[alias/name = '$aliasName']/alias/command[2] '$cmd2'
 "
 
 
