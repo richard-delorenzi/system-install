@@ -1,8 +1,8 @@
 #!/bin/bash
 
 aliasName=CPUFREQ
-cmd1="/usr/bin/cpufreq-set -u 500"
-cmd2="/usr/bin/cpufreq-set -u 2000"
+cmd1="/usr/bin/cpufreq-set -u 500MHz"
+cmd2="/usr/bin/cpufreq-set -u 2000MHz"
 user="richard"
 
 
