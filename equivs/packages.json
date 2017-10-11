@@ -18,7 +18,8 @@
 	"python",
 	"haskell-programming",
 	"audio-tools",
-	"backup"
+	"backup",
+	"couchdb"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -65,7 +66,8 @@
 	    "elpa-markdown-mode",
 	    "markdown",
 	    "pandoc",
-	    "dc"
+	    "dc",
+	    "xinput"
 	],
 	"system" : [
 	    "intel-microcode",
@@ -177,6 +179,9 @@
 	"python" : [
 	    "idle3",
             "ipython3-qtconsole"
+	],
+	"couchdb" : [
+	    "couchapp"
 	],
 	"programming-tools" : [
             "couchapp",
