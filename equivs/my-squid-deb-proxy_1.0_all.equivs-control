@@ -1,0 +1,12 @@
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-squid-deb-proxy
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@local>
+
+Depends: squid-deb-proxy, squid-deb-proxy-client
+
+# Readme: <README.Debian file; defaults to a generic one>
+Description: install my-squid-deb-proxy, my-squid-deb-proxy-client

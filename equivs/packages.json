@@ -68,6 +68,7 @@
 	    "pandoc",
 	    "dc",
 	    "xinput"
+	    
 	],
 	"system" : [
 	    "intel-microcode",
@@ -76,7 +77,8 @@
 	    "cpufrequtils",
 	    "openssh-server",
 	    "stow",
-	    "etckeeper"
+	    "etckeeper",
+	    "squid-deb-proxy-client"
 	],
 	"desktop-tools" : [
             "chromium",
