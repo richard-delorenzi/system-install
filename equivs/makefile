@@ -5,6 +5,11 @@ default: my-packages_1.0_all.install
 #don't delete stuff that we make
 .SECONDARY:
 
+#create source
+%.equivs-control: src/%.equivs-control
+	@echo %linking "$@" from "$<"
+	ln -s -t . "$<"
+
 #make deb
 %.deb: %.equivs-control
 	@echo %making "$@" from "$<"
