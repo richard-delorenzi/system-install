@@ -67,7 +67,9 @@
 	    "markdown",
 	    "pandoc",
 	    "dc",
-	    "xinput"
+	    "xinput",
+	    "iotop",
+	    "strace"
 	    
 	],
 	"system" : [
@@ -78,11 +80,13 @@
 	    "openssh-server",
 	    "stow",
 	    "etckeeper",
-	    "squid-deb-proxy-client"
+	    "squid"
+	    
 	],
 	"desktop-tools" : [
             "chromium",
-	    "vlc"
+	    "vlc",
+	    "konversation"
 	],
 	"lsb" :[
 	    "lsb",
