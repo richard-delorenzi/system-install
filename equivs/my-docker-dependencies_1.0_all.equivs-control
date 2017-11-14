@@ -1,0 +1,14 @@
+### This file auto generated, don't edit
+
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-docker-dependencies
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@local>
+
+Depends: apt-transport-https, ca-certificates, curl, gnupg2, software-properties-common
+
+# Readme: <README.Debian file; defaults to a generic one>
+Description: dependencies, to use the docker apt repo.
