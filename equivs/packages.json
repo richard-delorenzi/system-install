@@ -19,7 +19,9 @@
 	"haskell-programming",
 	"audio-tools",
 	"backup",
-	"couchdb"
+	"couchdb",
+	"jupyter-notebook",
+	"backward-compatability"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -301,6 +303,15 @@
 	],
 	"config-managment" : [
 	    "ansible"
+	],
+	"jupyter-notebook": [
+	    "jupyter-notebook",
+	    "jupyter-nbextension-jupyter-js-widgets",
+	    "python3-numpy",
+	    "python3-matplotlib"
+	],
+	"backward-compatability":[
+	    "browser-plugin-freshplayer-pepperflash"
 	]
     }
 }
