@@ -4,7 +4,8 @@
 	"system",
 	"tools",
 	"revision-control",
-	"kde",
+	"wm-kde",
+	"mw-mate",
 	"desktop-tools",
 	"security",
 	"diff-tools",
@@ -21,7 +22,9 @@
 	"backup",
 	"couchdb",
 	"jupyter-notebook",
-	"backward-compatability"
+	"backward-compatability",
+	"data-protection-action-dependancies",
+	"image-manipulation"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -111,7 +114,7 @@
             "zenmap",
             "wireshark"
 	],
-	"kde" : [
+	"wm-kde" : [
             "task-british-desktop",
             "task-british-kde-desktop",
             "task-desktop",
@@ -127,6 +130,11 @@
 	"kde-bonus" : [
 	    "plasma-widget-smooth-tasks",
             "plasma-widget-veromix"
+	],
+	"mw-mate" : [
+	    "mate-desktop-environment"
+	],
+	"wm-xfce" : [
 	],
 	"cv-tools" : [
             "filepp",
@@ -311,7 +319,14 @@
 	    "python3-matplotlib"
 	],
 	"backward-compatability":[
-	    "browser-plugin-freshplayer-pepperflash"
+	    
+	],
+	"data-protection-action-dependancies":[
+	    "python3-xlib"
+	],
+	"image-manipulation":[
+	    "libpdfbox-java",
+	    "python3-svgwrite"
 	]
     }
 }
