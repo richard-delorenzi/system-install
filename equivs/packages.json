@@ -109,6 +109,9 @@
             "task-laptop",
             "redshift-plasmoid",
 	    "gtk2-engines-oxygen",
+	    "gtk3-engines-oxygen",
+	    "kde-config-gtk-style",
+	    "kde-config-gtk-style-preview",
 	    "libreoffice-style-oxygen",
 	    "appmenu-qt"
 	],
