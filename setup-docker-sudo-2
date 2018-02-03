@@ -1,0 +1,10 @@
+#!/bin/bash
+augtool -b '
+set /files/etc/sudoers.d/docker/Cmnd_Alias/alias/name  "DOCKER"
+set /files/etc/sudoers.d/docker/Cmnd_Alias/alias/command  "/usr/bin/docker"
+set /files/etc/sudoers.d/docker/spec/user  "richard"
+set /files/etc/sudoers.d/docker/spec/host_group/host  "ALL"
+set /files/etc/sudoers.d/docker/spec/host_group/command  "DOCKER"
+set /files/etc/sudoers.d/docker/spec/host_group/command/runas_group  "docker"
+set /files/etc/sudoers.d/docker/spec/host_group/command/tag  "NOPASSWD"
+'
