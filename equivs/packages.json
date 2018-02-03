@@ -12,7 +12,8 @@
 	"python",
 	"backup",
 	"couchdb",
-	"backward-compatability"
+	"backward-compatability",
+	"config-file-editor"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
