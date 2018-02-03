@@ -61,7 +61,8 @@
 	    "dc",
 	    "xinput",
 	    "iotop",
-	    "strace"
+	    "strace",
+	    "curl"
 	    
 	],
 	"system" : [
