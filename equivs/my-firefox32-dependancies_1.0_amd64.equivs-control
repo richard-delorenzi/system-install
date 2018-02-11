@@ -10,7 +10,7 @@ Maintainer: richard.delorenzi <richard.delorenzi@nowhere>
 Architecture: any
 
 #install the esr firefox, as this will install all dependencies
-Depends: firefox-esr:i386
+Depends: firefox-esr:i386, gtk3-engines-oxygen:i386
 
 #gtk3-engines-oxygen fixes the menus, so that they have borders, and are easier to read.
 Recommends: gtk3-engines-oxygen:i386
