@@ -13,7 +13,8 @@
 	"backup",
 	"couchdb",
 	"backward-compatability",
-	"config-file-editor"
+	"config-file-editor",
+	"web-design"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -319,6 +320,10 @@
 	"image-manipulation":[
 	    "libpdfbox-java",
 	    "python3-svgwrite"
+	],
+	"web-design": [
+	    "sass-elisp",
+	    "ruby-sass"
 	]
     }
 }
