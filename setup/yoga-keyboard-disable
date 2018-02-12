@@ -1,8 +1,22 @@
 #!/bin/bash
 
+# We have a problem that some of the keys on the laptop are miss-firing.
+# We don't use this keybouard.
+# Therefore we will disable it.
+
+# There are many keyboards (and mice).
+# What looks like one on the laptop, are many.
+# Several buttons are also pretending to be keyboards.
+# We will only disable the part that is causing the problem.
+
 #Use
 # xinput list #to list input devices.
 # xinput float #to disable a device.
 # xinput reattach # to reattach a device.
 
-xinput list | "grep AT Translated"
+KeyboardToRemove="AT Translated Set 2 keyboard"
+
+xinput list |
+    grep "$KeyboardToRemove" |
+    sed -r -e 's/.*id=([0-9]+).*/\1/' |
+    xargs xinput float
