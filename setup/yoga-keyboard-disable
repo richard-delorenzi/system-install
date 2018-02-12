@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Use
+# xinput list #to list input devices.
+# xinput float #to disable a device.
+# xinput reattach # to reattach a device.
+
+xinput list | "grep AT Translated"
