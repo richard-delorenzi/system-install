@@ -328,10 +328,10 @@
 	],
 	"telephony":[
 	    "empathy",
+	    "kde-telepathy",
 	    "telepathy-gabble",
 	    "telepathy-salut",
-	    "telepathy-haze",
-	    "kde-telepathy"
+	    "telepathy-haze"
 	]
     }
 }
