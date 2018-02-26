@@ -14,7 +14,8 @@
 	"couchdb",
 	"backward-compatability",
 	"config-file-editor",
-	"web-design"
+	"web-design",
+	"telephony"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -324,6 +325,13 @@
 	"web-design": [
 	    "sass-elisp",
 	    "ruby-sass"
+	],
+	"telephony":[
+	    "empathy",
+	    "telepathy-gabble",
+	    "telepathy-salut",
+	    "telepathy-haze",
+	    "kde-telepathy"
 	]
     }
 }
