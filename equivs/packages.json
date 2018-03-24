@@ -15,7 +15,7 @@
 	"backward-compatability",
 	"config-file-editor",
 	"web-design",
-	"telephony"
+	"java"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -112,7 +112,6 @@
             "task-laptop",
             "redshift-plasmoid",
 	    "gtk2-engines-oxygen",
-	    "gtk3-engines-oxygen",
 	    "kde-config-gtk-style",
 	    "kde-config-gtk-style-preview",
 	    "libreoffice-style-oxygen",
@@ -193,17 +192,21 @@
 	"couchdb" : [
 	    "couchapp"
 	],
+	"mono": [
+	    "monodevelop",
+            "monodevelop-nunit",
+            "monodevelop-versioncontrol",
+	],
+	"java" : [
+	    "eclipse-jdk",
+	    "elcipse-mercurialeclipse"
+	],
 	"programming-tools" : [
             "couchapp",
             "cmake",
             "make",
-            "idle3",
-            "ipython3-qtconsole",
             "ruby-mustache",
             "nodejs",
-            "monodevelop",
-            "monodevelop-nunit",
-            "monodevelop-versioncontrol",
 	    "markdown"
 	],
 	"haskell-programming" : [
