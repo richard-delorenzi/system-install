@@ -198,7 +198,7 @@
             "monodevelop-versioncontrol"
 	],
 	"java" : [
-	    "eclipse-jdk",
+	    "eclipse-jdt",
 	    "elcipse-mercurialeclipse"
 	],
 	"programming-tools" : [
