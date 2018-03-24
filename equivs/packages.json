@@ -195,7 +195,7 @@
 	"mono": [
 	    "monodevelop",
             "monodevelop-nunit",
-            "monodevelop-versioncontrol",
+            "monodevelop-versioncontrol"
 	],
 	"java" : [
 	    "eclipse-jdk",
