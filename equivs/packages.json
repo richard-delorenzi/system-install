@@ -16,6 +16,8 @@
 	"config-file-editor",
 	"web-design",
 	"java"
+	"python-http",
+	"cv-tools"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -330,11 +332,13 @@
 	    "ruby-sass"
 	],
 	"telephony":[
-	    "empathy",
 	    "kde-telepathy",
 	    "telepathy-gabble",
 	    "telepathy-salut",
 	    "telepathy-haze"
+	],
+	"python-http":[
+	    "python3-requests"
 	]
     }
 }
