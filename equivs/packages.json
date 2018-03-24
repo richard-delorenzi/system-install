@@ -199,7 +199,7 @@
 	],
 	"java" : [
 	    "eclipse-jdt",
-	    "elcipse-mercurialeclipse"
+	    "eclipse-mercurialeclipse"
 	],
 	"programming-tools" : [
             "couchapp",
