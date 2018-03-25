@@ -9,4 +9,4 @@ Maintainer: richard.delorenzi <richard.delorenzi@local>
 Depends: libgtk2.0-dev,libxtst-dev
 
 # Readme: <README.Debian file; defaults to a generic one>
-Description: dependencies, for eiffel-studio
+Description: dependencies, for eiffel-studio-dependencies
