@@ -67,7 +67,8 @@
 	    "xinput",
 	    "iotop",
 	    "strace",
-	    "curl"
+	    "curl",
+            "screen"
 	    
 	],
 	"system" : [
