@@ -24,5 +24,6 @@ augtool -b "
     set \$command/runas_user root
     set \$command/tag NOPASSWD
 
+    print /files/etc/sudoers
     save
 "
