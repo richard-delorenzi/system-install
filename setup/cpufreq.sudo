@@ -1,0 +1,2 @@
+Cmnd_Alias CPUFREQ =/usr/bin/cpufreq-set -u 500MHz, /usr/bin/cpufreq-set -u 2000M
+%sudoers ALL = () NOPASSWD : CPUFREQ
