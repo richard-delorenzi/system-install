@@ -78,10 +78,10 @@
 	    "cpufrequtils",
 	    "openssh-server",
 	    "stow",
-	    "etckeeper"
+	    "etckeeper",
+            "ntp"
 	],
 	"desktop-tools" : [
-            "chromium",
 	    "vlc",
 	    "konversation"
 	],

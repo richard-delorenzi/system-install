@@ -26,9 +26,3 @@ augtool -b "
 
     save
 "
-
-
-
-
-#set "$file"'/*[ipaddr="127.0.0.1"]/alias[.="mycouchdb"]' 'mycouchdb'
-#set "$file"'/*[ipaddr = "127.0.0.1"]/alias[last()+1]' mycouchdb
