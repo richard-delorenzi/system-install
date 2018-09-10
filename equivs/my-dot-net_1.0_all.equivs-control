@@ -1,0 +1,12 @@
+Section: local
+Priority: optional
+#Homepage: https:
+Standards-Version: 3.9.2
+Package: my-dotnet-dependencies
+Version: 1.0
+Maintainer: richard.delorenzi <richard.delorenzi@local>
+
+Depends: nunit-gui, monodevelop-nunit, monodevelop-versioncontrol
+
+# Readme: <README.Debian file; defaults to a generic one>
+Description: monodevelop etc
