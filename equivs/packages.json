@@ -219,7 +219,8 @@
 	],
         "golang" : [
             "golang",
-            "golang-mode"
+            "golang-mode",
+            "golang-testify-dev"
         ],
 	"games" : [
             "hex-a-hop",
