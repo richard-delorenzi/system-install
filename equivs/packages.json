@@ -17,7 +17,8 @@
 	"web-design",
 	"java",
 	"python-http",
-	"cv-tools"
+	"cv-tools",
+        "golang"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -216,6 +217,10 @@
 	    "haskell-mode",
 	    "haskell-platform"
 	],
+        "golang" : [
+            "golang",
+            "golang-mode"
+        ],
 	"games" : [
             "hex-a-hop",
             "mirrormagic",
