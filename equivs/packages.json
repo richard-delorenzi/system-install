@@ -18,7 +18,8 @@
 	"java",
 	"python-http",
 	"cv-tools",
-        "golang"
+        "golang",
+        "network-analysis"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
