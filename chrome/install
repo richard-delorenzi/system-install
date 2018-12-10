@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo cp -t /etc/apt/sources.list.d/ google-chrome.list
+sudo apt-key add google_signing_key.pub
+sudo apt update
+sudo apt install google-chrome-stable
