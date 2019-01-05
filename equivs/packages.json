@@ -19,7 +19,8 @@
 	"python-http",
 	"cv-tools",
         "golang",
-        "network-analysis"
+        "network-analysis",
+        "mysql"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -347,6 +348,11 @@
 	],
 	"python-http":[
 	    "python3-requests"
-	]
+	],
+        "mysql":[
+            "mysql-client",
+            "mysql-server",
+            "mysql-workbench"
+        ]
     }
 }
