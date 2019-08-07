@@ -1,6 +1,5 @@
 {
     "selected" : [
-	"dependancies-to-make-self",
 	"system",
 	"tools",
 	"revision-control",
@@ -8,19 +7,9 @@
 	"desktop-tools",
 	"security",
 	"diff-tools",
-	"tor",
+        "tor",
 	"python",
-	"backup",
-	"couchdb",
-	"backward-compatability",
-	"config-file-editor",
-	"web-design",
-	"java",
-	"python-http",
-	"cv-tools",
-        "golang",
-        "network-analysis",
-        "mysql"
+	"vnc"
     ],
     "groups" : {
 	"dependancies-to-make-self": [
@@ -36,7 +25,6 @@
 	],
 	"tools" : [
             "bomstrip",
-            "nodejs",
             "dos2unix",
             "faketime",
             "wget",
@@ -74,15 +62,16 @@
             "screen"
 	    
 	],
-	"system" : [
+	"firmware" : [
 	    "intel-microcode",
-	    "firmware-linux",
+	    "firmware-linux"
+        ],
+        "system" : [
 	    "multiarch-support",
 	    "cpufrequtils",
 	    "openssh-server",
 	    "stow",
-	    "etckeeper",
-            "ntp"
+	    "etckeeper"
 	],
 	"desktop-tools" : [
 	    "vlc",
@@ -100,10 +89,7 @@
 	    "backintime-kde"
 	],
 	"vnc" :[
-            "tightvncserver",
-            "xvnc4viewer",
-	    "gvncviewer",
-            "xtightvncviewer"
+	    "ssvnc"
 	],
 	"network-analysis": [
             "zenmap",
@@ -120,7 +106,6 @@
 	    "gtk2-engines-oxygen",
 	    "kde-config-gtk-style",
 	    "kde-config-gtk-style-preview",
-	    "libreoffice-style-oxygen",
 	    "appmenu-qt"
 	],
 	"kde-retro" : [
@@ -179,7 +164,6 @@
             "kdesvn",
             "subversion",
 
-	    "hgview",
 	    "mercurial-common",
             "tortoisehg-nautilus",
 	    "python-dulwich"
@@ -220,9 +204,7 @@
 	    "haskell-platform"
 	],
         "golang" : [
-            "golang",
-            "golang-mode",
-            "golang-testify-dev"
+            "golang-mode"
         ],
 	"games" : [
             "hex-a-hop",

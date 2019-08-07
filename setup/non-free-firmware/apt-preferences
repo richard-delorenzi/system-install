@@ -1,0 +1,9 @@
+Explanation: don't install non-free, except some firmware
+
+Package: *
+Pin: release c=non-free
+Pin-Priority: -10
+
+Package: *
+Pin: release c=contrib
+Pin-Priority: -10

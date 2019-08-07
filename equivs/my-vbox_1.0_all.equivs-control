@@ -8,7 +8,8 @@ Package: my-vbox
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@local>
 
-Depends: dkms, virtualbox-5.2
+#Depends: dkms, virtualbox-5.2
+Depends: dkms, virtualbox-6.0
 
 # Readme: <README.Debian file; defaults to a generic one>
 Description: virtual box
