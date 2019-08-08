@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sys=/home/system
+
+rmdir /opt
+ln -s -t / ${sys}/opt
+
+rm -rf /usr/local
+ln -s -t /usr ${sys}/local
+
+cp -t ${sys}/var-cache-apt/archives /var/cache/apt/archives/*.deb
+rm -rf /var/cache/apt/archives
+ln -s -t /var/cache/apt/ ${sys}/var-cache-apt/archives

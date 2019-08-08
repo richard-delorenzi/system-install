@@ -1,36 +1,36 @@
 {
     "selected" : [
-	"system",
-	"tools",
-	"revision-control",
-	"wm-kde",
-	"desktop-tools",
-	"security",
-	"diff-tools",
+        "system",
+        "tools",
+        "revision-control",
+        "wm-kde",
+        "desktop-tools",
+        "security",
+        "diff-tools",
         "tor",
-	"python",
-	"vnc"
+        "python",
+        "vnc"
     ],
     "groups" : {
-	"dependancies-to-make-self": [
-	    "python3-pystache",
-	    "equivs",
-	    "make",
-	    "gdebi-core"
-	],
-	"firejail-stuff" : [
+        "dependancies-to-make-self": [
+            "python3-pystache",
+            "equivs",
+            "make",
+            "gdebi-core"
+        ],
+        "firejail-stuff" : [
             "firejail",
             "xpra",
             "xserver-xephyr"
-	],
-	"tools" : [
+        ],
+        "tools" : [
             "bomstrip",
             "dos2unix",
             "faketime",
             "wget",
             "nocache",
             "schedtool",
-	    "cpulimit",
+            "cpulimit",
             "smem",
             "inotify-tools",
             "keepassx",
@@ -47,55 +47,55 @@
             "k4dirstat",
             "openssh-client",
             "vim",
-	    "rsync",
-	    "emacs",
-	    "vim",
-	    "avahi-discover",
-	    "yaml-mode",
-	    "markdown",
-	    "pandoc",
-	    "dc",
-	    "xinput",
-	    "iotop",
-	    "strace",
-	    "curl",
+            "rsync",
+            "emacs",
+            "vim",
+            "avahi-discover",
+            "yaml-mode",
+            "markdown",
+            "pandoc",
+            "dc",
+            "xinput",
+            "iotop",
+            "strace",
+            "curl",
             "screen"
-	    
-	],
-	"firmware" : [
-	    "intel-microcode",
-	    "firmware-linux"
+        ],
+        "firmware" : [
+            "intel-microcode",
+            "firmware-linux"
         ],
         "system" : [
-	    "multiarch-support",
-	    "cpufrequtils",
-	    "openssh-server",
-	    "stow",
-	    "etckeeper"
-	],
-	"desktop-tools" : [
-	    "vlc",
-	    "konversation"
-	],
-	"lsb" :[
-	    "lsb",
+            "multiarch-support",
+            "cpufrequtils",
+            "openssh-server",
+            "stow",
+            "etckeeper",
+            "nftables"
+        ],
+        "desktop-tools" : [
+            "vlc",
+            "konversation"
+        ],
+        "lsb" :[
+            "lsb",
             "lsb-base",
             "lsb-security"
-	],
-	"virtual-box" :[
+        ],
+        "virtual-box" :[
             "virtualbox-5.1"
-	],
-	"backup" : [
-	    "backintime-kde"
-	],
-	"vnc" :[
-	    "ssvnc"
-	],
-	"network-analysis": [
+        ],
+        "backup" : [
+            "backintime-kde"
+        ],
+        "vnc" :[
+            "ssvnc"
+        ],
+        "network-analysis": [
             "zenmap",
             "wireshark"
-	],
-	"wm-kde" : [
+        ],
+        "wm-kde" : [
             "task-british-desktop",
             "task-british-kde-desktop",
             "task-desktop",
@@ -103,110 +103,108 @@
             "task-kde-desktop",
             "task-laptop",
             "redshift-plasmoid",
-	    "gtk2-engines-oxygen",
-	    "kde-config-gtk-style",
-	    "kde-config-gtk-style-preview",
-	    "appmenu-qt"
-	],
-	"kde-retro" : [
-	    "plasma-theme-oxygen"
-	],
-	"kde-bonus" : [
-	    "plasma-widget-smooth-tasks",
+            "gtk2-engines-oxygen",
+            "kde-config-gtk-style",
+            "kde-config-gtk-style-preview",
+            "appmenu-qt"
+        ],
+        "kde-retro" : [
+            "plasma-theme-oxygen"
+        ],
+        "kde-bonus" : [
+            "plasma-widget-smooth-tasks",
             "plasma-widget-veromix"
-	],
-	"mw-mate" : [
-	    "mate-desktop-environment"
-	],
-	"wm-xfce" : [
-	],
-	"cv-tools" : [
+        ],
+        "mw-mate" : [
+            "mate-desktop-environment"
+        ],
+        "wm-xfce" : [
+        ],
+        "cv-tools" : [
             "filepp",
             "texlive-latex-base",
             "texlive-latex-extra",
             "tth"
-	],
-	"couchdb-build-dependencies" : [
+        ],
+        "couchdb-build-dependencies" : [
             "build-essential",
             "pkg-config",
             "erlang",
             "libicu-dev",
             "libmozjs185-dev",
             "libcurl4-openssl-dev"
-	],
-	"docker-stuff" : [
+        ],
+        "docker-stuff" : [
             "docker.io",
             "xpra"
-	],
-	"eiffel-dependencies" : [
+        ],
+        "eiffel-dependencies" : [
             "libgtk2.0-dev",
             "libxtst-dev"
-	],
-	"compsci-stuff" : [
+        ],
+        "compsci-stuff" : [
             "kiki-the-nano-bot",
             "laby",
             "scratch",
             "etoys",
             "turtleart"
-	],
-	"revision-control":[
-	    "kdesdk-dolphin-plugins",
-	    
-	    "cvs",
-	    
+        ],
+        "revision-control":[
+            "kdesdk-dolphin-plugins",
+            "cvs",
             "easygit",
             "git",
             "git-flow",
             "git-gui",
             "gitg",
-	    "tig",
-	    
+            "tig",
             "kdesvn",
             "subversion",
 
-	    "mercurial-common",
+            "mercurial-common",
             "tortoisehg-nautilus",
-	    "python-dulwich"
-	],
-	"diff-tools" :[
-	    "diffpdf",
+            "python-dulwich"
+        ],
+        "diff-tools" :[
+            "diffpdf",
             "diffuse",
             "dirdiff",
             "kdiff3",
             "meld"
-	],
-	"python" : [
-	    "idle3",
-            "ipython3-qtconsole"
-	],
-	"couchdb" : [
-	    "couchapp"
-	],
-	"mono": [
-	    "monodevelop",
+        ],
+        "python" : [
+            "idle3",
+            "ipython3-qtconsole",
+            "thonny"
+        ],
+        "couchdb" : [
+            "couchapp"
+        ],
+        "mono": [
+            "monodevelop",
             "monodevelop-nunit",
             "monodevelop-versioncontrol"
-	],
-	"java" : [
-	    "eclipse-jdt",
-	    "eclipse-mercurialeclipse"
-	],
-	"programming-tools" : [
+        ],
+        "java" : [
+            "eclipse-jdt",
+            "eclipse-mercurialeclipse"
+        ],
+        "programming-tools" : [
             "couchapp",
             "cmake",
             "make",
             "ruby-mustache",
             "nodejs",
-	    "markdown"
-	],
-	"haskell-programming" : [
-	    "haskell-mode",
-	    "haskell-platform"
-	],
+            "markdown"
+        ],
+        "haskell-programming" : [
+            "haskell-mode",
+            "haskell-platform"
+        ],
         "golang" : [
             "golang-mode"
         ],
-	"games" : [
+        "games" : [
             "hex-a-hop",
             "mirrormagic",
             "lightsoff",
@@ -229,11 +227,11 @@
             "gvrng",
             "kiki-the-nano-bot",
             "laby"
-	],
-	"games2" : [
-	    "mupen64plus-qt"
-	],
-	"keepassx-build-dependencies" : [
+        ],
+        "games2" : [
+            "mupen64plus-qt"
+        ],
+        "keepassx-build-dependencies" : [
             "build-essential",
             "cmake",
             "qtbase5-dev",
@@ -244,15 +242,15 @@
             "zlib1g-dev",
             "libxi-dev",
             "libxtst-dev"
-	],
-	"teacher-tools" : [
+        ],
+        "teacher-tools" : [
             "sozi"
-	],
-	"sass-stuff" : [
+        ],
+        "sass-stuff" : [
             "ruby-sass",
             "sass-elisp"
-	],
-	"art-progs" : [
+        ],
+        "art-progs" : [
             "fontforge",
             "gimp",
             "gimp-gap",
@@ -265,72 +263,71 @@
             "openshot",
             "synfigstudio",
             "cheese"
-	],
-	"audio-tools" : [
-	    "lame"
-	],
-	"remote-audio" : [
-	    "padevchooser",
-	    "paprefs"
-	],
-	"tor-browser" : [
-	    "torbrowser-launcher"
-	],
-	"tor" : [
-	    "tor"
-	],
-	"security" : [
-	    "encfs"
-	],
-	"robot" : [
-	    "arduino",
-	    "squeak-vm",
-	    "squeak-plugins-scratch"
-	],
-	"cad" : [
-	    "freecad",
-	    "leocad",
-	    "librecad",
-	    "openscad"
-	],
-	"config-file-editor" : [
-	    "augeas-lenses",
-	    "augeas-tools",
-	    "augeas-doc",
-	    "python3-augeas"
-	],
-	"config-managment" : [
-	    "ansible"
-	],
-	"jupyter-notebook": [
-	    "jupyter-notebook",
-	    "jupyter-nbextension-jupyter-js-widgets",
-	    "python3-numpy",
-	    "python3-matplotlib"
-	],
-	"backward-compatability":[
-	    
-	],
-	"data-protection-action-dependancies":[
-	    "python3-xlib"
-	],
-	"image-manipulation":[
-	    "libpdfbox-java",
-	    "python3-svgwrite"
-	],
-	"web-design": [
-	    "sass-elisp",
-	    "ruby-sass"
-	],
-	"telephony":[
-	    "kde-telepathy",
-	    "telepathy-gabble",
-	    "telepathy-salut",
-	    "telepathy-haze"
-	],
-	"python-http":[
-	    "python3-requests"
-	],
+        ],
+        "audio-tools" : [
+            "lame"
+        ],
+        "remote-audio" : [
+            "padevchooser",
+            "paprefs"
+        ],
+        "tor-browser" : [
+            "torbrowser-launcher"
+        ],
+        "tor" : [
+            "tor"
+        ],
+        "security" : [
+            "encfs"
+        ],
+        "robot" : [
+            "arduino",
+            "squeak-vm",
+            "squeak-plugins-scratch"
+        ],
+        "cad" : [
+            "freecad",
+            "leocad",
+            "librecad",
+            "openscad"
+        ],
+        "config-file-editor" : [
+            "augeas-lenses",
+            "augeas-tools",
+            "augeas-doc",
+            "python3-augeas"
+        ],
+        "config-managment" : [
+            "ansible"
+        ],
+        "jupyter-notebook": [
+            "jupyter-notebook",
+            "jupyter-nbextension-jupyter-js-widgets",
+            "python3-numpy",
+            "python3-matplotlib"
+        ],
+        "backward-compatability":[
+        ],
+        "data-protection-action-dependancies":[
+            "python3-xlib"
+        ],
+        "image-manipulation":[
+            "libpdfbox-java",
+            "python3-svgwrite"
+        ],
+        "web-design": [
+            "sass-elisp",
+            "ruby-sass"
+        ],
+        "telephony":[
+            "kde-telepathy",
+            "telepathy-gabble",
+            "telepathy-salut",
+            "telepathy-haze"
+        ],
+        "python-http":[
+            "python3-requests"
+        ],
         "mysql":[
             "mysql-client",
             "mysql-server",

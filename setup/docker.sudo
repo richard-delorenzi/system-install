@@ -1,2 +1,2 @@
 Cmnd_Alias DOCKER = /usr/bin/docker
-richard ALL = (:docker) NOPASSWD : DOCKER
+%docker-user ALL = (:docker) NOPASSWD : DOCKER
