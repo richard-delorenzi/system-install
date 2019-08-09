@@ -1,10 +1,10 @@
 #!/bin/bash
 
 cd "$(dirname "$0")" #won't work if called via PATH
-this_dir="$pwd"
+this_dir="$(pwd)"
 cd -
 
 sudo cp -t /etc/apt/sources.list.d/ ${this_dir}/virtual-box.apt-sources.list
 sudo apt-key add ${this_dir}/oracle_vbox_2016.asc
 sudo apt-key add ${this_dir}/oracle_vbox.asc
-
+sudo apt update

@@ -4,12 +4,12 @@ Package: *
 Pin: release c=non-free
 Pin-Priority: -10
 
-Package: *
-Pin: release c=contrib
-Pin-Priority: -10
+#Package: *
+#Pin: release c=contrib
+#Pin-Priority: -10
 
 #################################################
-#Specify individual packages
+##Specify individual packages
 
 Package: intel-microcode
 Pin: release c=non-free
@@ -19,7 +19,7 @@ Package: firmware-iwlwifi
 Pin: release c=non-free
 Pin-Priority: 101
 
-#This is a dependency of intel-microcode
-Package: iucode-tool
-Pin: release c=contrib
-Pin-Priority: 101
+##This is a dependency of intel-microcode
+#Package: iucode-tool
+#Pin: release c=contrib
+#Pin-Priority: 101
