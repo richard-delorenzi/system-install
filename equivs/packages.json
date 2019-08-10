@@ -175,7 +175,8 @@
         "python" : [
             "idle3",
             "ipython3-qtconsole",
-            "thonny"
+            "thonny",
+            "mu-editor"
         ],
         "couchdb" : [
             "couchapp"
