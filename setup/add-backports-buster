@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp -t /etc/apt/sources.list.d/ buster-backports-source.list
