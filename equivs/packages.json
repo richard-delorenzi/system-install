@@ -9,7 +9,8 @@
         "diff-tools",
         "tor",
         "python",
-        "vnc"
+        "vnc",
+        "kde-style"
     ],
     "groups" : {
         "dependancies-to-make-self": [
@@ -107,6 +108,12 @@
             "kde-config-gtk-style",
             "kde-config-gtk-style-preview",
             "appmenu-qt"
+        ],
+        "kde-style":[
+            "kwin-decoration-oxygen",
+            "kde-style-oxygen-qt4",
+            "kde-style-oxygen-qt5",
+            "gtk2-engines-oxygen"
         ],
         "kde-retro" : [
             "plasma-theme-oxygen"
