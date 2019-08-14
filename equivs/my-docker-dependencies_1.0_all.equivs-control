@@ -8,7 +8,8 @@ Package: my-docker-dependencies
 Version: 1.0
 Maintainer: richard.delorenzi <richard.delorenzi@local>
 
-Depends: apt-transport-https, ca-certificates, curl, gnupg2, software-properties-common
+Depends:  docker-ce
+Provides: docker.io
 
-# Readme: <README.Debian file; defaults to a generic one>
-Description: dependencies, to use the docker apt repo.
+
+Description: docker
