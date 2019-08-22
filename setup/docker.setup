@@ -8,10 +8,10 @@
 
 ##Key fingerprint = 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
 
-#sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/debian \
+#echo \
+   "deb  [arch=amd64] https://download.docker.com/linux/debian \
    $(lsb_release -cs) \
-   stable"
+   stable" | sudo tee >/dev/null /etc/apt/sources.list.d/docker
 
 ##get version
 #apt-cache madison docker-ce
